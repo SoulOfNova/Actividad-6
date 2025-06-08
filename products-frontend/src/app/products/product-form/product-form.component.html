@@ -1,0 +1,24 @@
+<form>  
+    <div class="container">
+        <mat-form-field>
+            <mat-label>Name</mat-label>
+            <input matInput name="name" type="text">
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Description</mat-label>
+            <input matInput name="description" type="text">
+        </mat-form-field>
+        <mat-form-field>
+                <mat-label>Price</mat-label>
+                <input matInput name="price" type="number">
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Quantity</mat-label>
+            <input matInput name="quantity" type="number">
+        </mat-form-field>
+    </div>
+    <div>
+        <button mat-stroked-button (click)="onButtonClick()">Agregar Producto</button>
+    </div>
+
+</form>  
